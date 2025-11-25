@@ -1,0 +1,145 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8" />  
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+<title>SeduxaModels</title>  
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* ============================
+   FONDO Y BASE
+============================ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    background: url('collage.jpg') center/cover fixed no-repeat;
+}
+
+/* Capa negra 80% */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.80);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Logo */
+.logo {
+    width: 90%;
+    max-width: 380px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+/* ============================
+   DEGRADÉ EXACTO DEL LOGO
+============================ */
+.text-gradient {
+    background: linear-gradient(to bottom, #ff2fcf, #b455ff, #4f7dff);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow:
+        0 0 3px rgba(255, 100, 255, 0.4),
+        0 0 6px rgba(120, 80, 255, 0.3),
+        1px 1px 1px #000;
+}
+
+/* ============================
+   SLOGAN (ACHICADO y LIMPIO)
+============================ */
+.slogan {
+    text-align: center;
+    font-size: 22px;         /* tamaño ajustado */
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+/* ============================
+   CONTENEDOR GENERAL
+============================ */
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ============================
+   PERGAMINOS
+============================ */
+.perg {
+    background: url('pergamino.png') center/100% 100% no-repeat;
+    width: 88%;
+    max-width: 420px;
+    padding: 40px 10px;
+    margin: 28px auto;
+    display: block;
+}
+
+/* Texto dentro del pergamino */
+.perg-text {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+/* ============================
+   FOOTER
+============================ */
+footer {
+    text-align: center;
+    font-size: 18px;
+    margin: 40px 0 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<img src="logo.png" class="logo">
+
+<!-- SLOGAN con degradé -->
+<div class="slogan text-gradient">El Placer, Hecho Realidad</div>
+
+<div class="container">
+
+    <div class="perg">
+        <div class="perg-text text-gradient">Models</div>
+    </div>
+
+    <div class="perg">
+        <div class="perg-text text-gradient">Coins & Items</div>
+    </div>
+
+    <div class="perg">
+        <div class="perg-text text-gradient">Download</div>
+    </div>
+
+    <div class="perg">
+        <div class="perg-text text-gradient">Support</div>
+    </div>
+
+    <div class="perg">
+        <div class="perg-text text-gradient">Admin</div>
+    </div>
+
+</div>
+
+<footer class="text-gradient">
+SeduxaModels© 2025 Todos los Derechos Reservados — Propiedad de Tornado Stream
+</footer>
+
+
+<script>
+
+</body>
+</html>
